@@ -34,7 +34,7 @@ cd fol_2 || exit
 # Create files 2_1.txt, 2_2.txt, 2_3.txt
 touch 2_1.txt 2_2.txt 2_3.txt
 # Set permissions for files ending with _1.txt and _3.txt in fol_2
-chmod u+rw 2_1.txt 2_3.txt with premissions
+chmod u+rw 2_1.txt 2_3.txt
 echo "Files 2_1.txt, 2_2.txt, 2_3.txt created successfully in fol_2"
 # Add permissions for files ending with _2.txt in fol_2, keeping old permissions
 chmod u+rwx 2_2.txt
