@@ -39,3 +39,4 @@ echo "Files 2_1.txt, 2_2.txt, 2_3.txt created successfully in fol_2."
 chmod u+rwx 2_2.txt
 
 echo "File 2_2.txt in fol_2 now has read, write, and execute permissions"
+echo "Job completed"
