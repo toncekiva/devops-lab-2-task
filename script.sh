@@ -1,5 +1,13 @@
 #!/bin/bash
+# Delete fol_1 directory if it exists
+if [ -d "fol_1" ]; then
+    rm -rf fol_1
+fi
 
+# Delete fol_2 directory if it exists
+if [ -d "fol_2" ]; then
+    rm -rf fol_2
+fi
 # Create folders fol_1 and fol_2
 mkdir fol_1 fol_2
 
