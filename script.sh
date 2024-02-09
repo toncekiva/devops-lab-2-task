@@ -26,7 +26,7 @@ chmod u+rwx 1_2.txt
 
 echo "File 1_2.txt in fol_1 now has read, write, and execute permissions"
 # go to main folder
-cd ..
+ecd ..
 
 # go to folder 2
 cd fol_2 || exit
