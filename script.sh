@@ -26,7 +26,7 @@ chmod u+rwx 1_2.txt
 
 echo "File 1_2.txt in fol_1 now has read, write, and execute permissions"
 # go to main folder
-ecd ..
+cd ..
 
 # go to folder 2
 cd fol_2 || exit
@@ -35,7 +35,7 @@ cd fol_2 || exit
 touch 2_1.txt 2_2.txt 2_3.txt
 # Set permissions for files ending with _1.txt and _3.txt in fol_2
 chmod u+rw 2_1.txt 2_3.txt with premissions
-echo "Files 2_1.txt, 2_2.txt, 2_3.txt created successfully in fol_2."
+echo "Files 2_1.txt, 2_2.txt, 2_3.txt created successfully in fol_2"
 # Add permissions for files ending with _2.txt in fol_2, keeping old permissions
 chmod u+rwx 2_2.txt
 
