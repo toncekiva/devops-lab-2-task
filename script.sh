@@ -20,6 +20,7 @@ touch 1_1.txt 1_2.txt 1_3.txt
 # Set permissions for files ending with _1.txt and _3.txt in fol_1
 chmod u+rw 1_1.txt 1_3.txt
 echo "Files 1_1.txt, 1_2.txt, 1_3.txt created in fol_1. with premissions"
+
 # Add permissions for files ending with _2.txt in fol_1, keeping old permissions
 chmod u+rwx 1_2.txt
 
